@@ -1,0 +1,10 @@
+project ~/Boost-String/example
+    : requirements
+      <include>../../../
+      <optimization>speed
+      <link>static
+    :
+    ;
+
+exe aho_corasick_example   : aho_corasick_example.cc ;
+
